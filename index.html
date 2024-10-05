@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+    <!-- daisy Ui cnd -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!-- tailwnd custom  -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+
+                    fontFamily: {
+                        lexend: ['Lexend', 'sans-serif'],
+                    },
+
+
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-lexend">
+
+    <header class="container m-auto">
+        <nav class="pt-6">
+            <!-- nav container -->
+            <div class="navbar bg-base-100 ">
+
+                <div class="navbar-start">
+                    <a class="btn btn-ghost text-xl"><img src="./asset/Logo.png" alt=""></a>
+                </div>
+
+                <div class="navbar-center">
+                    <button class="btn btn-ghost bg-gray-300 "> Short by view </button>
+                </div>
+
+                <div class="navbar-end">
+
+                    <button class="btn w-[100px] btn-ghost  bg-red-500">
+                        Blog
+                    </button>
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+    <div class="divider"></div>
+
+    <main class="container m-auto ">
+        <section id="statusC">
+            <div id="catago" class=" flex justify-center gap-8 items-center my-8">
+                <h1 class="bg-red-500  text-white text-center font-bold px-5 py-2 rounded-lg">All</h1>
+            </div>
+            <!-- video section -->
+            <div id="videoScetion" class=" flex flex-wrap gap-5 ">
+
+
+
+
+
+
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
